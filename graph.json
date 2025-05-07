@@ -1,0 +1,4559 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "646c8cf4-d4ea-4144-9112-abcbbbc3997e",
+      "zIndex": 0,
+      "source": {
+        "cell": "cbf7f14b-14e4-4b71-ae98-373f918445c7",
+        "port": "94876b48-cdbb-4478-8eb5-ddbaae2ba332"
+      },
+      "target": {
+        "cell": "8fc7704c-e350-4893-9aa3-af584f358e6c",
+        "port": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "7e09f805-077a-475e-9858-a69dead29254",
+      "zIndex": 0,
+      "source": {
+        "cell": "cbf7f14b-14e4-4b71-ae98-373f918445c7",
+        "port": "94876b48-cdbb-4478-8eb5-ddbaae2ba332"
+      },
+      "target": {
+        "cell": "d561e3fb-89fc-4427-9c6e-165795db4dad",
+        "port": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "e09aa41b-5f40-47d5-9ae7-300b30212d71",
+      "zIndex": 0,
+      "source": {
+        "cell": "6d33e184-68a8-44a7-89d1-3e6f24b3d7f2",
+        "port": "4d889d9f-4d4c-4ae4-99bf-e58d9abf913a"
+      },
+      "target": {
+        "cell": "b4d27c02-b689-4dd4-987c-b89006550a82",
+        "port": "665ba4e7-da36-428f-be09-025162b1898e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "12274f79-e3f0-49ed-a201-6f346ec57b27",
+      "zIndex": 0,
+      "source": {
+        "cell": "b4d27c02-b689-4dd4-987c-b89006550a82",
+        "port": "82e0a0f2-124b-4260-a188-dc5128973fb4"
+      },
+      "target": {
+        "cell": "cbf7f14b-14e4-4b71-ae98-373f918445c7",
+        "port": "665ba4e7-da36-428f-be09-025162b1898e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "ada6f3db-bfaf-4bdb-ace1-298660b652d6",
+      "zIndex": 0,
+      "source": {
+        "cell": "cbf7f14b-14e4-4b71-ae98-373f918445c7",
+        "port": "94876b48-cdbb-4478-8eb5-ddbaae2ba332"
+      },
+      "target": {
+        "cell": "04520e5c-94fb-4c7c-9559-4e29c77e3ddf",
+        "port": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "c1a2166a-7cac-4d6f-aed5-f4de824432ac",
+      "zIndex": 0,
+      "source": {
+        "cell": "b4d27c02-b689-4dd4-987c-b89006550a82",
+        "port": "94876b48-cdbb-4478-8eb5-ddbaae2ba332"
+      },
+      "target": {
+        "cell": "a48da664-96e3-4b39-ac7e-1a306e6955db",
+        "port": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "3eb74531-0403-4fa6-a43e-487e3ae516c5",
+      "zIndex": 0,
+      "source": {
+        "cell": "b4d27c02-b689-4dd4-987c-b89006550a82",
+        "port": "94876b48-cdbb-4478-8eb5-ddbaae2ba332"
+      },
+      "target": {
+        "cell": "189a3527-ae2f-48de-9604-d88ab0983dd2",
+        "port": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "4efe95b1-efdc-4587-9cbe-100aa94aaf8e",
+      "zIndex": 0,
+      "source": {
+        "cell": "cbf7f14b-14e4-4b71-ae98-373f918445c7",
+        "port": "94876b48-cdbb-4478-8eb5-ddbaae2ba332"
+      },
+      "target": {
+        "cell": "335bd5c0-3f6b-42f5-9cb6-07597639767f",
+        "port": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "3bb9e9c3-bcf9-4073-a4d8-f16e006ab0c6",
+      "zIndex": 0,
+      "source": {
+        "cell": "cbf7f14b-14e4-4b71-ae98-373f918445c7",
+        "port": "82e0a0f2-124b-4260-a188-dc5128973fb4"
+      },
+      "target": {
+        "cell": "6c134016-71de-4988-b285-911b30f11bb3",
+        "port": "a8435f50-e5f6-4a7a-a394-4f97f2f5a1ed"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "6b71543f-c29f-4a2d-a671-2ec4bf3307c3",
+      "zIndex": 0,
+      "source": {
+        "cell": "6c134016-71de-4988-b285-911b30f11bb3",
+        "port": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+      },
+      "target": {
+        "cell": "554e24bc-fdb2-4ae1-b319-31563f6a6bae",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "655ccc2c-20f9-468c-962d-d97041774adb",
+      "zIndex": 0,
+      "source": {
+        "cell": "6c134016-71de-4988-b285-911b30f11bb3",
+        "port": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+      },
+      "target": {
+        "cell": "98703e94-c9d4-4bbd-8bba-0b34f567f494",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "3f7a82c8-43cc-477d-b2cc-b41fee658766",
+      "zIndex": 0,
+      "source": {
+        "cell": "6c134016-71de-4988-b285-911b30f11bb3",
+        "port": "3a5b4443-e472-4e16-bdb8-f3717ac00aaf"
+      },
+      "target": {
+        "cell": "eb298906-4301-4aaa-82b9-39a44a1fe133",
+        "port": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "8debb8bc-6b4a-4961-873e-37b2ef7bd48f",
+      "zIndex": 0,
+      "source": {
+        "cell": "eb298906-4301-4aaa-82b9-39a44a1fe133",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      },
+      "target": {
+        "cell": "52dc5657-86a6-4234-b1a3-32c92ee4bd7e",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "ffe6bee6-b3c2-4aa9-99f8-d2dbae8d9bdb",
+      "zIndex": 0,
+      "source": {
+        "cell": "eb298906-4301-4aaa-82b9-39a44a1fe133",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      },
+      "target": {
+        "cell": "9dcb9a49-ca78-4f2b-8af1-94d37da6ce92",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "b4cab88d-dc51-414f-b52f-f06c66e25100",
+      "zIndex": 0,
+      "source": {
+        "cell": "eb298906-4301-4aaa-82b9-39a44a1fe133",
+        "port": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+      },
+      "target": {
+        "cell": "225fcaa0-c79f-41e2-beb4-ee90e249117e",
+        "port": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "5fbd81cb-6135-4303-af77-b462519a8658",
+      "zIndex": 0,
+      "source": {
+        "cell": "225fcaa0-c79f-41e2-beb4-ee90e249117e",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      },
+      "target": {
+        "cell": "2f8b176b-0cfd-4141-928d-0f5b1a097933",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "7b4f70b4-8eb9-47db-8557-a7f5eadc1924",
+      "zIndex": 0,
+      "source": {
+        "cell": "225fcaa0-c79f-41e2-beb4-ee90e249117e",
+        "port": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+      },
+      "target": {
+        "cell": "94264eb5-fb72-4c77-b519-73ba1afbd390",
+        "port": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "ff85819e-ecb1-4fa0-840f-243ba36c858f",
+      "zIndex": 0,
+      "source": {
+        "cell": "94264eb5-fb72-4c77-b519-73ba1afbd390",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      },
+      "target": {
+        "cell": "3d442907-0023-40cd-9566-1b6d1ddc39f4",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "221fbfe5-d408-4eea-9f53-9301c385ca7a",
+      "zIndex": 0,
+      "source": {
+        "cell": "94264eb5-fb72-4c77-b519-73ba1afbd390",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      },
+      "target": {
+        "cell": "1361909e-856d-4b8f-8df8-da9d78d86182",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "89416324-debb-4085-a3ad-9243676f5058",
+      "zIndex": 0,
+      "source": {
+        "cell": "fd62f7e2-b0b1-4c28-bb2b-308bf025241f",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      },
+      "target": {
+        "cell": "6f152306-b32a-401d-91dd-3f0d39f0f8c7",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "bf2405dc-ab94-422a-b916-affdbb9b6fc1",
+      "zIndex": 0,
+      "source": {
+        "cell": "fd62f7e2-b0b1-4c28-bb2b-308bf025241f",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      },
+      "target": {
+        "cell": "d81a6b38-5303-4350-8655-afa8d804bba2",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "5de71915-04c2-4f3c-8b08-2e5365ed35b9",
+      "zIndex": 0,
+      "source": {
+        "cell": "fd62f7e2-b0b1-4c28-bb2b-308bf025241f",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      },
+      "target": {
+        "cell": "61dfbe67-002c-4108-bc5d-78a4142f5c42",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "48401b7a-914c-43c9-8fc8-a9f689a165bc",
+      "zIndex": 0,
+      "source": {
+        "cell": "94264eb5-fb72-4c77-b519-73ba1afbd390",
+        "port": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+      },
+      "target": {
+        "cell": "fd62f7e2-b0b1-4c28-bb2b-308bf025241f",
+        "port": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "2f217153-2800-4962-867c-2b8d38b4994b",
+      "zIndex": 0,
+      "source": {
+        "cell": "fd62f7e2-b0b1-4c28-bb2b-308bf025241f",
+        "port": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+      },
+      "target": {
+        "cell": "0c131b76-84d2-482c-bb75-33751b521819",
+        "port": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "92557beb-3b35-47b7-a1e6-f62699c27f86",
+      "zIndex": 0,
+      "source": {
+        "cell": "0c131b76-84d2-482c-bb75-33751b521819",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      },
+      "target": {
+        "cell": "a877ed08-3039-4ffb-a814-6674b814ed5c",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "1ee4f3d8-9b9b-4104-b9d7-76fadf5e45a7",
+      "zIndex": 0,
+      "source": {
+        "cell": "0c131b76-84d2-482c-bb75-33751b521819",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      },
+      "target": {
+        "cell": "85152e5f-eca3-4357-8923-cab7f6d01022",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "9da88f23-ee5c-481c-963a-4b47f3c7332c",
+      "zIndex": 0,
+      "source": {
+        "cell": "0c131b76-84d2-482c-bb75-33751b521819",
+        "port": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+      },
+      "target": {
+        "cell": "ef7a25e7-50b7-448b-a80d-d141262aebb7",
+        "port": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "64f749fa-fcdb-44bf-a0c9-c44d59612dd8",
+      "zIndex": 0,
+      "source": {
+        "cell": "0c131b76-84d2-482c-bb75-33751b521819",
+        "port": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+      },
+      "target": {
+        "cell": "b6baedce-bcb2-43b8-b5f0-488e10280893",
+        "port": "e767e3ae-e075-4138-be0d-4d332a64f3be"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "fba128bf-359d-426f-b52c-8f7c3a89ce72",
+      "zIndex": 0,
+      "source": {
+        "cell": "2b054a81-209c-4d9a-ac01-297a52741f7f",
+        "port": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+      },
+      "target": {
+        "cell": "cf0c990b-d2af-41e8-92e5-32217833956f",
+        "port": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "24f2e644-b858-4fb3-86cb-45f87bcfeace",
+      "zIndex": 0,
+      "source": {
+        "cell": "cf0c990b-d2af-41e8-92e5-32217833956f",
+        "port": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+      },
+      "target": {
+        "cell": "37785ed5-8db7-46b4-b271-009a39b6fc5f",
+        "port": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "5297ec4c-b39b-48b3-ac80-3b4bad41588d",
+      "zIndex": 0,
+      "source": {
+        "cell": "37785ed5-8db7-46b4-b271-009a39b6fc5f",
+        "port": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+      },
+      "target": {
+        "cell": "ff0713c0-b519-4a1e-ad41-0aeb7ab86a05",
+        "port": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "a9c6019f-ef4f-4b47-9757-9b71cd9da2c5",
+      "zIndex": 0,
+      "source": {
+        "cell": "ff0713c0-b519-4a1e-ad41-0aeb7ab86a05",
+        "port": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+      },
+      "target": {
+        "cell": "a7b49948-7f8f-418e-b619-306ed5964f09",
+        "port": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3",
+          "targetMarker": {
+            "name": "block",
+            "width": 12,
+            "height": 8
+          }
+        }
+      },
+      "id": "e26809bf-40bc-496c-8543-d4448d30a886",
+      "zIndex": 0,
+      "source": {
+        "cell": "a7b49948-7f8f-418e-b619-306ed5964f09",
+        "port": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+      },
+      "target": {
+        "cell": "c7455e2c-c910-43a3-9713-f13e3208768f",
+        "port": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+      }
+    },
+    {
+      "position": {
+        "x": 350,
+        "y": 94
+      },
+      "size": {
+        "width": 66,
+        "height": 36
+      },
+      "attrs": {
+        "text": {
+          "text": "开始"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a388c55d-5b95-4ad4-9819-a4ac89229555"
+          },
+          {
+            "group": "right",
+            "id": "8c594584-4cc8-49fd-a309-69567b8fccae"
+          },
+          {
+            "group": "bottom",
+            "id": "4d889d9f-4d4c-4ae4-99bf-e58d9abf913a"
+          },
+          {
+            "group": "left",
+            "id": "2d6f18ba-fc42-4b1a-a41e-d0385767e3d1"
+          }
+        ]
+      },
+      "id": "6d33e184-68a8-44a7-89d1-3e6f24b3d7f2",
+      "zIndex": 1,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 293,
+        "y": 356
+      },
+      "size": {
+        "width": 180,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "选择并加载机械臂模型"
+        },
+        "body": {
+          "rx": 6,
+          "ry": 6
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "665ba4e7-da36-428f-be09-025162b1898e"
+          },
+          {
+            "group": "right",
+            "id": "94876b48-cdbb-4478-8eb5-ddbaae2ba332"
+          },
+          {
+            "group": "bottom",
+            "id": "82e0a0f2-124b-4260-a188-dc5128973fb4"
+          },
+          {
+            "group": "left",
+            "id": "5a8ed054-86f2-4046-84c3-6b133aab3f29"
+          }
+        ]
+      },
+      "id": "cbf7f14b-14e4-4b71-ae98-373f918445c7",
+      "zIndex": 2,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 574,
+        "y": 296
+      },
+      "size": {
+        "width": 66,
+        "height": 36
+      },
+      "attrs": {
+        "text": {
+          "text": "UR5"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a8435f50-e5f6-4a7a-a394-4f97f2f5a1ed"
+          },
+          {
+            "group": "right",
+            "id": "cbf6cf12-8a85-4563-9d24-53476e3bbf1a"
+          },
+          {
+            "group": "bottom",
+            "id": "3a5b4443-e472-4e16-bdb8-f3717ac00aaf"
+          },
+          {
+            "group": "left",
+            "id": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+          }
+        ]
+      },
+      "id": "8fc7704c-e350-4893-9aa3-af584f358e6c",
+      "zIndex": 3,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 574,
+        "y": 356
+      },
+      "size": {
+        "width": 150,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "franka emika panda"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a8435f50-e5f6-4a7a-a394-4f97f2f5a1ed"
+          },
+          {
+            "group": "right",
+            "id": "cbf6cf12-8a85-4563-9d24-53476e3bbf1a"
+          },
+          {
+            "group": "bottom",
+            "id": "3a5b4443-e472-4e16-bdb8-f3717ac00aaf"
+          },
+          {
+            "group": "left",
+            "id": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+          }
+        ]
+      },
+      "id": "d561e3fb-89fc-4427-9c6e-165795db4dad",
+      "zIndex": 4,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 574,
+        "y": 434
+      },
+      "size": {
+        "width": 66,
+        "height": 36
+      },
+      "attrs": {
+        "text": {
+          "text": "..."
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a8435f50-e5f6-4a7a-a394-4f97f2f5a1ed"
+          },
+          {
+            "group": "right",
+            "id": "cbf6cf12-8a85-4563-9d24-53476e3bbf1a"
+          },
+          {
+            "group": "bottom",
+            "id": "3a5b4443-e472-4e16-bdb8-f3717ac00aaf"
+          },
+          {
+            "group": "left",
+            "id": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+          }
+        ]
+      },
+      "id": "04520e5c-94fb-4c7c-9559-4e29c77e3ddf",
+      "zIndex": 5,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 328,
+        "y": 531
+      },
+      "size": {
+        "width": 110,
+        "height": 30
+      },
+      "attrs": {
+        "text": {
+          "text": "配置夹爪状态"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a8435f50-e5f6-4a7a-a394-4f97f2f5a1ed"
+          },
+          {
+            "group": "right",
+            "id": "cbf6cf12-8a85-4563-9d24-53476e3bbf1a"
+          },
+          {
+            "group": "bottom",
+            "id": "3a5b4443-e472-4e16-bdb8-f3717ac00aaf"
+          },
+          {
+            "group": "left",
+            "id": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+          }
+        ]
+      },
+      "id": "6c134016-71de-4988-b285-911b30f11bb3",
+      "zIndex": 7,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 333,
+        "y": 186
+      },
+      "size": {
+        "width": 100,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "初始化警告处理"
+        },
+        "body": {
+          "rx": 6,
+          "ry": 6
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "665ba4e7-da36-428f-be09-025162b1898e"
+          },
+          {
+            "group": "right",
+            "id": "94876b48-cdbb-4478-8eb5-ddbaae2ba332"
+          },
+          {
+            "group": "bottom",
+            "id": "82e0a0f2-124b-4260-a188-dc5128973fb4"
+          },
+          {
+            "group": "left",
+            "id": "5a8ed054-86f2-4046-84c3-6b133aab3f29"
+          }
+        ]
+      },
+      "id": "b4d27c02-b689-4dd4-987c-b89006550a82",
+      "zIndex": 8,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 500,
+        "y": 130
+      },
+      "size": {
+        "width": 140,
+        "height": 30
+      },
+      "attrs": {
+        "text": {
+          "text": "1.关闭惯性缺失警告"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a8435f50-e5f6-4a7a-a394-4f97f2f5a1ed"
+          },
+          {
+            "group": "right",
+            "id": "cbf6cf12-8a85-4563-9d24-53476e3bbf1a"
+          },
+          {
+            "group": "bottom",
+            "id": "3a5b4443-e472-4e16-bdb8-f3717ac00aaf"
+          },
+          {
+            "group": "left",
+            "id": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+          }
+        ]
+      },
+      "id": "a48da664-96e3-4b39-ac7e-1a306e6955db",
+      "zIndex": 9,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 500,
+        "y": 226
+      },
+      "size": {
+        "width": 140,
+        "height": 30
+      },
+      "attrs": {
+        "text": {
+          "text": "2.设置清理回调"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a8435f50-e5f6-4a7a-a394-4f97f2f5a1ed"
+          },
+          {
+            "group": "right",
+            "id": "cbf6cf12-8a85-4563-9d24-53476e3bbf1a"
+          },
+          {
+            "group": "bottom",
+            "id": "3a5b4443-e472-4e16-bdb8-f3717ac00aaf"
+          },
+          {
+            "group": "left",
+            "id": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+          }
+        ]
+      },
+      "id": "189a3527-ae2f-48de-9604-d88ab0983dd2",
+      "zIndex": 10,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 574,
+        "y": 531
+      },
+      "size": {
+        "width": 210,
+        "height": 30
+      },
+      "attrs": {
+        "text": {
+          "text": "2.数据格式设为行"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a8435f50-e5f6-4a7a-a394-4f97f2f5a1ed"
+          },
+          {
+            "group": "right",
+            "id": "cbf6cf12-8a85-4563-9d24-53476e3bbf1a"
+          },
+          {
+            "group": "bottom",
+            "id": "3a5b4443-e472-4e16-bdb8-f3717ac00aaf"
+          },
+          {
+            "group": "left",
+            "id": "310771c2-9b8c-4360-87e0-3aacf69c4878"
+          }
+        ]
+      },
+      "id": "335bd5c0-3f6b-42f5-9cb6-07597639767f",
+      "zIndex": 11,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 183,
+        "y": 501
+      },
+      "size": {
+        "width": 110,
+        "height": 30
+      },
+      "attrs": {
+        "text": {
+          "text": "设置Home位置"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "554e24bc-fdb2-4ae1-b319-31563f6a6bae",
+      "zIndex": 12,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 183,
+        "y": 573
+      },
+      "size": {
+        "width": 110,
+        "height": 30
+      },
+      "attrs": {
+        "text": {
+          "text": "锁定夹爪位置限制"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "98703e94-c9d4-4bbd-8bba-0b34f567f494",
+      "zIndex": 13,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 328,
+        "y": 639
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "检查初始碰撞"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "eb298906-4301-4aaa-82b9-39a44a1fe133",
+      "zIndex": 14,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 473,
+        "y": 603
+      },
+      "size": {
+        "width": 130,
+        "height": 30
+      },
+      "attrs": {
+        "text": {
+          "text": "检查自碰撞链接对"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "52dc5657-86a6-4234-b1a3-32c92ee4bd7e",
+      "zIndex": 15,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 473,
+        "y": 699
+      },
+      "size": {
+        "width": 130,
+        "height": 30
+      },
+      "attrs": {
+        "text": {
+          "text": "记录碰撞结果"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "9dcb9a49-ca78-4f2b-8af1-94d37da6ce92",
+      "zIndex": 16,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 328,
+        "y": 741
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "设置Home位置"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "225fcaa0-c79f-41e2-beb4-ee90e249117e",
+      "zIndex": 17,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 153,
+        "y": 746
+      },
+      "size": {
+        "width": 130,
+        "height": 30
+      },
+      "attrs": {
+        "text": {
+          "text": "修改关节6\\7角度"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "2f8b176b-0cfd-4141-928d-0f5b1a097933",
+      "zIndex": 18,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 328,
+        "y": 863
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "修改碰撞几何体"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "94264eb5-fb72-4c77-b519-73ba1afbd390",
+      "zIndex": 19,
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 500,
+        "y": 823
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "清除Link9碰撞模型"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "3d442907-0023-40cd-9566-1b6d1ddc39f4",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 20
+    },
+    {
+      "position": {
+        "x": 500,
+        "y": 903
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "添加新圆柱体模型"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "1361909e-856d-4b8f-8df8-da9d78d86182",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 21
+    },
+    {
+      "position": {
+        "x": 328,
+        "y": 1025
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "创建环境障碍物"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "fd62f7e2-b0b1-4c28-bb2b-308bf025241f",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 22
+    },
+    {
+      "position": {
+        "x": 500,
+        "y": 955
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "工作台、传送带"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "6f152306-b32a-401d-91dd-3f0d39f0f8c7",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 23
+    },
+    {
+      "position": {
+        "x": 500,
+        "y": 1025
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "圆柱体、围栏"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "d81a6b38-5303-4350-8655-afa8d804bba2",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 24
+    },
+    {
+      "position": {
+        "x": 500,
+        "y": 1107
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "设置位姿"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "61dfbe67-002c-4108-bc5d-78a4142f5c42",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 25
+    },
+    {
+      "position": {
+        "x": 328,
+        "y": 1247
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "返回结果"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "0c131b76-84d2-482c-bb75-33751b521819",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 26
+    },
+    {
+      "position": {
+        "x": 162,
+        "y": 1177
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "franka机器人对象"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "a877ed08-3039-4ffb-a814-6674b814ed5c",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 27
+    },
+    {
+      "position": {
+        "x": 163,
+        "y": 1247
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "config配置"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "85152e5f-eca3-4357-8923-cab7f6d01022",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 28
+    },
+    {
+      "position": {
+        "x": 163,
+        "y": 1329
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "env障碍物列表"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "21f5148b-c751-4ab8-b62c-f81f3de386e6"
+          },
+          {
+            "group": "right",
+            "id": "c4fc4417-8eb2-4982-9668-3c8d6532c2f4"
+          },
+          {
+            "group": "bottom",
+            "id": "346f98b7-d929-4de0-b0bb-d318897b0c7c"
+          },
+          {
+            "group": "left",
+            "id": "fee71b25-3936-448d-b6c9-4f8e30c598aa"
+          }
+        ]
+      },
+      "id": "ef7a25e7-50b7-448b-a80d-d141262aebb7",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 29
+    },
+    {
+      "position": {
+        "x": 350,
+        "y": 1402
+      },
+      "size": {
+        "width": 66,
+        "height": 36
+      },
+      "attrs": {
+        "text": {
+          "text": "结束"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e767e3ae-e075-4138-be0d-4d332a64f3be"
+          },
+          {
+            "group": "right",
+            "id": "ef53c5a3-bfe2-4876-8fa4-927c7e4ad539"
+          },
+          {
+            "group": "bottom",
+            "id": "80960217-fca9-4372-9150-1bc65247b084"
+          },
+          {
+            "group": "left",
+            "id": "1cf20f11-526a-4bc3-9af2-68abee451a33"
+          }
+        ]
+      },
+      "id": "b6baedce-bcb2-43b8-b5f0-488e10280893",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 30
+    },
+    {
+      "position": {
+        "x": 920,
+        "y": 358
+      },
+      "size": {
+        "width": 66,
+        "height": 36
+      },
+      "attrs": {
+        "text": {
+          "text": "加载模型"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+          },
+          {
+            "group": "right",
+            "id": "3f7ce27a-5ce6-4327-955e-eb81c1b9abed"
+          },
+          {
+            "group": "bottom",
+            "id": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+          },
+          {
+            "group": "left",
+            "id": "7c3de157-9817-4603-90b5-e1b2db16f6a1"
+          }
+        ]
+      },
+      "id": "2b054a81-209c-4d9a-ac01-297a52741f7f",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 31
+    },
+    {
+      "position": {
+        "x": 898,
+        "y": 526
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "配置末端执行器"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+          },
+          {
+            "group": "right",
+            "id": "3f7ce27a-5ce6-4327-955e-eb81c1b9abed"
+          },
+          {
+            "group": "bottom",
+            "id": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+          },
+          {
+            "group": "left",
+            "id": "7c3de157-9817-4603-90b5-e1b2db16f6a1"
+          }
+        ]
+      },
+      "id": "cf0c990b-d2af-41e8-92e5-32217833956f",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 32
+    },
+    {
+      "position": {
+        "x": 898,
+        "y": 639
+      },
+      "size": {
+        "width": 110,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "初始碰撞检测"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+          },
+          {
+            "group": "right",
+            "id": "3f7ce27a-5ce6-4327-955e-eb81c1b9abed"
+          },
+          {
+            "group": "bottom",
+            "id": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+          },
+          {
+            "group": "left",
+            "id": "7c3de157-9817-4603-90b5-e1b2db16f6a1"
+          }
+        ]
+      },
+      "id": "37785ed5-8db7-46b4-b271-009a39b6fc5f",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 33
+    },
+    {
+      "position": {
+        "x": 868,
+        "y": 741
+      },
+      "size": {
+        "width": 170,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "调整关节配置(易碰撞关节等)"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+          },
+          {
+            "group": "right",
+            "id": "3f7ce27a-5ce6-4327-955e-eb81c1b9abed"
+          },
+          {
+            "group": "bottom",
+            "id": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+          },
+          {
+            "group": "left",
+            "id": "7c3de157-9817-4603-90b5-e1b2db16f6a1"
+          }
+        ]
+      },
+      "id": "ff0713c0-b519-4a1e-ad41-0aeb7ab86a05",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 34
+    },
+    {
+      "position": {
+        "x": 868,
+        "y": 853
+      },
+      "size": {
+        "width": 170,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "修改碰撞模型"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+          },
+          {
+            "group": "right",
+            "id": "3f7ce27a-5ce6-4327-955e-eb81c1b9abed"
+          },
+          {
+            "group": "bottom",
+            "id": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+          },
+          {
+            "group": "left",
+            "id": "7c3de157-9817-4603-90b5-e1b2db16f6a1"
+          }
+        ]
+      },
+      "id": "a7b49948-7f8f-418e-b619-306ed5964f09",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 35
+    },
+    {
+      "position": {
+        "x": 868,
+        "y": 1025
+      },
+      "size": {
+        "width": 170,
+        "height": 40
+      },
+      "attrs": {
+        "text": {
+          "text": "环境构建"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "2c544dcf-c79d-4cfe-bc2e-1d1484795c6e"
+          },
+          {
+            "group": "right",
+            "id": "3f7ce27a-5ce6-4327-955e-eb81c1b9abed"
+          },
+          {
+            "group": "bottom",
+            "id": "8d4b5c92-87b6-4919-b246-80dd4ea8c293"
+          },
+          {
+            "group": "left",
+            "id": "7c3de157-9817-4603-90b5-e1b2db16f6a1"
+          }
+        ]
+      },
+      "id": "c7455e2c-c910-43a3-9713-f13e3208768f",
+      "tools": {
+        "items": [
+          {
+            "name": "node-editor"
+          }
+        ]
+      },
+      "zIndex": 36
+    }
+  ]
+}
