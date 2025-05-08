@@ -612,7 +612,7 @@ contextMenu.style.padding = '4px 0';
 contextMenu.style.margin = '0';
 
 // 添加菜单项
-['复制', '粘贴', '删除'].forEach((label, index) => {
+['颜色', '字体加粗','删除节点'].forEach((label, index) => {
   const item = document.createElement('div');
   item.textContent = label;
   item.style.padding = '8px 16px';
@@ -695,17 +695,51 @@ function handleContextMenuClick(action: string) {
   if (!currentCell) return;
 
   switch (action) {
-    case '复制':
-      graph.copy([currentCell]);
+    case '颜色':
+        // 颜色选择器
+        //颜色库：黄色、蓝色、黑色、红色
+        const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00'];
+        const colorMenu = document.createElement('div');
+        colorMenu.style.position = 'absolute';
+        colorMenu.style.zIndex = '9999';
+        colorMenu.style.background = '#fff';
+        colorMenu.style.border = '1px solid #ddd';
+        colorMenu.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)';
+        colorMenu.style.listStyle = 'none';
+        colorMenu.style.padding = '4px 0';
+        colorMenu.style.margin = '0';
+        colorMenu.style.display = 'block';
+        colorMenu.style.left = `${currentCell.getBBox().x+105}px`;
+        colorMenu.style.top = `${currentCell.getBBox().y-20}px`;
+        colors.forEach(color => {
+          const colorItem = document.createElement('div');
+          colorItem.textContent = color;
+          colorItem.style.padding = '1px 1px';
+          colorItem.style.cursor = 'pointer';
+          colorItem.style.userSelect = 'none';
+          colorItem.style.backgroundColor = color;
+
+          colorItem.addEventListener('click', () => {
+            currentCell.attr('body/fill', color);
+            document.body.removeChild(colorMenu);
+          });
+
+          colorMenu.appendChild(colorItem);
+        });
+        document.body.appendChild(colorMenu);
+        break;
+      // const color = prompt('请输入颜色值（例如：#ff0000）', '#ff0000');
+      // if (color) {
+      //   currentCell.attr('body/fill', color);      }
+      // break;
+    case '字体加粗':
+      const fontWeight = currentCell.attr('text/fontWeight') === 'bold' ? 'normal' : 'bold';
+      //字体大小+1
+      const fontSize = parseInt(currentCell.attr('text/fontSize')) + 1;
+      currentCell.attr('text/fontSize', fontSize);
+      currentCell.attr('text/fontWeight', fontWeight);
       break;
-    case '粘贴':
-      if (!graph.isClipboardEmpty()) {
-        const cells = graph.paste({ offset: 32 });
-        graph.cleanSelection();
-        graph.select(cells);
-      }
-      break;
-    case '删除':
+    case '删除节点':
       graph.removeCells([currentCell]);
       break;
   }
