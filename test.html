@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>烧香动画网页版（改造定位）</title>
+  <style>
+    body {
+      background: #2c1a0d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* 父容器：包含香支和香炉 */
+    .incense-container {
+      position: relative;
+      width: 100px;
+      height: 260px; /* 要足够高以容纳香支和烟雾 */
+      overflow: visible;
+    }
+
+    .incense-stick {
+      position: absolute;
+      bottom: 20px;    /* 离容器底部留出香炉高度 */
+      left: 50%;
+      transform: translateX(-50%);
+      width: 6px;
+      height: 200px;
+      background: linear-gradient(to right, #654321, #432d1a);
+    }
+
+    /* 火焰 */
+    .incense-stick::before {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10px;
+      height: 10px;
+      background: radial-gradient(circle, #ff9c00, transparent 60%);
+      border-radius: 50%;
+      animation: flicker 0.15s infinite alternate;
+      box-shadow: 0 0 12px 4px rgba(255,156,0,0.6);
+    }
+    @keyframes flicker {
+      0%   { transform: translateX(-50%) scale(1) rotate(3deg); }
+      100% { transform: translateX(-50%) scale(1.2) rotate(-3deg); }
+    }
+
+    /* 香炉 */
+    #censer {
+      position: absolute;
+      bottom: 0;       /* 紧贴父容器底部 */
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 30px;
+      background: #654321;
+      /* border-radius四个角不一致 */
+      border-radius: 0 0 50% 50%;
+      box-shadow: 0 0 12px 4px rgba(255,156,0,0.6);
+     }
+
+     .smoke {
+      position: absolute;
+      bottom: 200px;        /* 从香头底部（容器）开始 */
+      left: -5%;
+      width: 10px;
+      height: 10px;
+      background: rgba(200,200,200,0.2);
+      border-radius: 50%;
+      pointer-events: none;
+      will-change: transform, opacity;
+      animation-name: smoke-float;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards;
+    }
+    @keyframes smoke-float {
+      0%   { opacity: 0; transform: translate(-50%, 0) scale(0.2); }
+      10%  { opacity: 0.6; }
+      100% { opacity: 0; transform: translate(calc(-50% + var(--dx)), -150px) scale(var(--scale)); }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="incense-container">
+    <div class="incense-stick"></div>
+    <div id="censer"></div>
+  </div>
+<script>
+
+      const stick = document.querySelector('.incense-stick');
+      // 持续生成更多粒子
+      const count = 20;
+      for (let i = 0; i < count; i++) {
+        const smoke = document.createElement('div');
+        smoke.className = 'smoke';
+        // 随机左右偏移和缩放
+        const dx    = (Math.random() * 60 - 30) + 'px';
+        const scale = (Math.random() * 1 + 0.5).toFixed(2);
+        const dur   = (Math.random() * 2 + 2).toFixed(2) + 's';
+        const delay = (Math.random() * 1).toFixed(2) + 's';
+        smoke.style.setProperty('--dx', dx);
+        smoke.style.setProperty('--scale', scale);
+        smoke.style.animationDuration = dur;
+        smoke.style.animationDelay    = delay;
+        stick.appendChild(smoke);
+
+        // 动画结束后自动移除
+        smoke.addEventListener('animationend', () => smoke.remove());
+      }
+</script>
+</body>
+</html>

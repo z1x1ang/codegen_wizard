@@ -52,6 +52,7 @@ const graph = new Graph({
           },
         },
         zIndex: 0,
+        tools:[{name:'edge-editor'}],
       })
     },
     validateConnection({ targetMagnet }) {
@@ -642,6 +643,7 @@ document.body.appendChild(contextMenu);
       height:100vh;
       border: 1px solid #dfe3e8;
       background: #f5f7fa; /* 添加背景色 */
+      background:#333;
       box-sizing: border-box; /* 防止边框影响尺寸 */
     }
     #stencil {
@@ -696,38 +698,38 @@ function handleContextMenuClick(action: string) {
 
   switch (action) {
     case '颜色':
-        // 颜色选择器
-        //颜色库：黄色、蓝色、黑色、红色
-        const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00'];
-        const colorMenu = document.createElement('div');
-        colorMenu.style.position = 'absolute';
-        colorMenu.style.zIndex = '9999';
-        colorMenu.style.background = '#fff';
-        colorMenu.style.border = '1px solid #ddd';
-        colorMenu.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)';
-        colorMenu.style.listStyle = 'none';
-        colorMenu.style.padding = '4px 0';
-        colorMenu.style.margin = '0';
-        colorMenu.style.display = 'block';
-        colorMenu.style.left = `${currentCell.getBBox().x+105}px`;
-        colorMenu.style.top = `${currentCell.getBBox().y-20}px`;
-        colors.forEach(color => {
-          const colorItem = document.createElement('div');
-          colorItem.textContent = color;
-          colorItem.style.padding = '1px 1px';
-          colorItem.style.cursor = 'pointer';
-          colorItem.style.userSelect = 'none';
-          colorItem.style.backgroundColor = color;
+      const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00'];
+      const colorMenu = document.createElement('div');
+      colorMenu.style.position = 'absolute';
+      colorMenu.style.zIndex = '9999';
+      colorMenu.style.background = '#fff';
+      colorMenu.style.border = '1px solid #ddd';
+      colorMenu.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)';
+      colorMenu.style.padding = '4px 0';
+      
+      // 基于当前右键菜单位置偏移
+      const mainMenu = document.getElementById('context-menu')!;
+      const mainMenuRect = mainMenu.getBoundingClientRect();
+      colorMenu.style.left = `${mainMenuRect.right + 5}px`; // 向右偏移5px
+      colorMenu.style.top = `${mainMenuRect.top}px`;        // 保持垂直对齐
 
-          colorItem.addEventListener('click', () => {
-            currentCell.attr('body/fill', color);
-            document.body.removeChild(colorMenu);
-          });
+      colors.forEach(color => {
+        const colorItem = document.createElement('div');
+        colorItem.style.padding = '8px 16px';
+        colorItem.style.cursor = 'pointer';
+        colorItem.style.backgroundColor = color;
+        colorItem.title = color; // 添加颜色值提示
 
-          colorMenu.appendChild(colorItem);
+        colorItem.addEventListener('click', () => {
+          currentCell.attr('body/fill', color);
+          document.body.removeChild(colorMenu);
         });
-        document.body.appendChild(colorMenu);
-        break;
+
+        colorMenu.appendChild(colorItem);
+      });
+      
+      document.body.appendChild(colorMenu);
+      break;
       // const color = prompt('请输入颜色值（例如：#ff0000）', '#ff0000');
       // if (color) {
       //   currentCell.attr('body/fill', color);      }
