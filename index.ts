@@ -219,6 +219,24 @@ graph.on('node:mouseleave', () => {
   ) as NodeListOf<SVGElement>
   showPorts(ports, false)
 })
+
+graph.on('cell:contextmenu', ({ e, cell }) => {
+  e.preventDefault();
+  currentCell = cell;
+  showContextMenu(e.clientX, e.clientY);
+});
+
+graph.on('blank:contextmenu', ({ e }) => {
+  e.preventDefault();
+  currentCell = null;
+  showContextMenu(e.clientX, e.clientY);
+});
+
+document.addEventListener('click', hideContextMenu);
+document.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+});
+
 // #endregion
 
 // #region 初始化图形
@@ -581,6 +599,43 @@ function preWork() {
   container.appendChild(stencilContainer)
   container.appendChild(graphContainer)
 
+  const contextMenu = document.createElement('div');
+contextMenu.id = 'context-menu';
+contextMenu.style.position = 'absolute';
+contextMenu.style.zIndex = '9999';
+contextMenu.style.background = '#fff';
+contextMenu.style.border = '1px solid #ddd';
+contextMenu.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)';
+contextMenu.style.display = 'none';
+contextMenu.style.listStyle = 'none';
+contextMenu.style.padding = '4px 0';
+contextMenu.style.margin = '0';
+
+// 添加菜单项
+['复制', '粘贴', '删除'].forEach((label, index) => {
+  const item = document.createElement('div');
+  item.textContent = label;
+  item.style.padding = '8px 16px';
+  item.style.cursor = 'pointer';
+  item.style.userSelect = 'none';
+
+  item.addEventListener('click', () => {
+    handleContextMenuClick(label);
+  });
+
+  item.addEventListener('mouseenter', () => {
+    item.style.backgroundColor = '#f0f0f0';
+  });
+
+  item.addEventListener('mouseleave', () => {
+    item.style.backgroundColor = '#fff';
+  });
+
+  contextMenu.appendChild(item);
+});
+
+document.body.appendChild(contextMenu);
+
   insertCss(`
     #container {
       display: flex;
@@ -632,4 +687,40 @@ function preWork() {
       opacity: 0;
     }
   `)
+}
+
+let currentCell: any = null;
+
+function handleContextMenuClick(action: string) {
+  if (!currentCell) return;
+
+  switch (action) {
+    case '复制':
+      graph.copy([currentCell]);
+      break;
+    case '粘贴':
+      if (!graph.isClipboardEmpty()) {
+        const cells = graph.paste({ offset: 32 });
+        graph.cleanSelection();
+        graph.select(cells);
+      }
+      break;
+    case '删除':
+      graph.removeCells([currentCell]);
+      break;
+  }
+
+  hideContextMenu();
+}
+
+function showContextMenu(x: number, y: number) {
+  const menu = document.getElementById('context-menu')!;
+  menu.style.left = `${x}px`;
+  menu.style.top = `${y}px`;
+  menu.style.display = 'block';
+}
+
+function hideContextMenu() {
+  const menu = document.getElementById('context-menu')!;
+  menu.style.display = 'none';
 }
