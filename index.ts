@@ -143,6 +143,24 @@ graph.bindKey(['meta+v', 'ctrl+v'], () => {
     const cells = graph.paste({ offset: 32 })
     graph.cleanSelection()
     graph.select(cells)
+  } else {
+    // 异步读取系统剪贴板
+    navigator.clipboard.readText()
+      .then(text => {
+        const selectedCells = graph.getSelectedCells()
+        if (selectedCells.length === 1) {
+          const cell = selectedCells[0]
+          if (cell.isNode()) {
+            // 使用正确的属性设置方式
+            cell.attr('label/text', text)
+          } else if (cell.isEdge()) {
+            cell.attr('label/text', text)
+          }
+        }
+      })
+      .catch(err => {
+        console.warn('剪贴板读取失败:', err)
+      })
   }
   return false
 })
@@ -540,6 +558,7 @@ const imageNodes = imageShapes.map((item) =>
 stencil.load(imageNodes, 'group2')
 // #endregion
 
+
 //定义导出/导入功能
 // ====== 导出 JSON ======
 function exportGraphJSON() {
@@ -690,6 +709,8 @@ document.body.appendChild(contextMenu);
     }
   `)
 }
+
+
 
 let currentCell: any = null;
 
