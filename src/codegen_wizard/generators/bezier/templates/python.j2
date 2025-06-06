@@ -1,0 +1,28 @@
+# Auto-generated Bezier curve plot (Python 3)
+import numpy as np
+import matplotlib.pyplot as plt
+
+control_points = [{{ control_points_py }}]
+
+def bernstein(n, k, t):
+    from math import comb
+    return comb(n, k) * (1 - t) ** (n - k) * t ** k
+
+def bezier(pts, num=200):
+    n = len(pts) - 1
+    t = np.linspace(0, 1, num)
+    curve = np.zeros((num, 2))
+    for k, (xk, yk) in enumerate(pts):
+        b = bernstein(n, k, t)
+        curve[:, 0] += b * xk
+        curve[:, 1] += b * yk
+    return curve
+
+curve = bezier(control_points)
+pts = np.array(control_points)
+
+plt.plot(curve[:, 0], curve[:, 1], '-', linewidth=2, label='Bezier curve')
+plt.plot(pts[:, 0], pts[:, 1], 'o--', label='Control points')
+{% if legend %}plt.legend(){% endif %}
+plt.axis('equal'); plt.grid(True); plt.title('Bezier Curve')
+plt.show()

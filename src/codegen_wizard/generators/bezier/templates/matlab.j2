@@ -1,0 +1,14 @@
+%% Auto-generated Bezier curve plot (Matlab)
+pts = [ {{ control_points_mat }} ];
+n = size(pts,1) - 1;
+t = linspace(0,1,200)';
+B = zeros(numel(t),2);
+
+for k = 0:n
+    B = B + nchoosek(n,k) .* (1 - t).^(n - k) .* t.^k * pts(k+1,:);
+end
+
+plot(B(:,1), B(:,2), '-', 'LineWidth', 2); hold on
+plot(pts(:,1), pts(:,2), 'o--');
+{% if legend %}legend('Bezier curve','Control points');{% endif %}
+grid on; axis equal; title('Bezier Curve');

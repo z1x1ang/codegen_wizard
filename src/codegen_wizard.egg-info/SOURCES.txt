@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/codegen_wizard/__init__.py
+src/codegen_wizard/cli.py
+src/codegen_wizard/registry.py
+src/codegen_wizard.egg-info/PKG-INFO
+src/codegen_wizard.egg-info/SOURCES.txt
+src/codegen_wizard.egg-info/dependency_links.txt
+src/codegen_wizard.egg-info/entry_points.txt
+src/codegen_wizard.egg-info/requires.txt
+src/codegen_wizard.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+[codegen_wizard.generators]
+bezier = codegen_wizard.generators.bezier
+
+[console_scripts]
+codegen-wizard = codegen_wizard.cli:main
